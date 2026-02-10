@@ -87,6 +87,12 @@ Logistic Regression	Poor	Poor	Low	Very Low
 
 The Random Forest optimized via GridSearchCV was selected as the best-performing model, achieving the highest recall for epitopes while maintaining strong overall performance.
 
+🏆 Random Forest (GSCV) Results Summary:
+Recall (Epitope) : 0.744 
+F1-score : 0.87 
+AUC = 0.92 
+Training Time = 1124s
+
 🧬 Conclusions
 
 This project demonstrates that tree-based ensemble models, combined with biologically informed feature engineering, provide a robust framework for B-cell epitope prediction. The selected model effectively prioritizes epitope detection, making it a valuable tool for computational immunology and vaccine research.
