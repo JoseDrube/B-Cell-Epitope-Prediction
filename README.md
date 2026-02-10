@@ -76,13 +76,6 @@ ROC-AUC
 
 Confusion Matrix
 
-🏆 Results Summary
-Model	Recall (Epitope)	F1-score	AUC	Training Time
-Random Forest (GSCV)	0.744	0.87	0.92	~1124 s
-XGBoost (GSCV)	0.683	0.867	0.92	~929 s
-Random Forest	0.658	0.865	0.93	Low
-MLP	Lower	Lower	Lower	Very High
-Logistic Regression	Poor	Poor	Low	Very Low
 ⭐ Best Model
 
 The Random Forest optimized via GridSearchCV was selected as the best-performing model, achieving the highest recall for epitopes while maintaining strong overall performance.
